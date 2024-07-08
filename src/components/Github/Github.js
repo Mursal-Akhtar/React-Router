@@ -19,7 +19,7 @@ export default function Github() {
     </div>
   );
 }
-
+// second commit
 export const githubInfoLoader = async () => {
   const response = await fetch("https://api.github.com/users/Mursal-Akhtar");
   return response.json();
